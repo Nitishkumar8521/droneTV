@@ -1,9 +1,8 @@
 # 🌟 DroneTV React Developer Assignment  
 
-### 👨‍💻 Submitted by: **Your Full Name**  
-📞 **Phone:** +91 XXXXX XXXXX  
-🎓 **Education:** B.Tech in Computer Science, [Your College Name], [Year of Graduation]  
-📅 **Submission Date:** DD/MM/YYYY  
+### 👨‍💻 Submitted by: Nitish Kumar Singh 
+📞 **Phone:** +91 73670 95470 <br />
+🎓 **Education:** B.Tech in Computer Science, [Nalanda College of Engineering, Chandi], [Year of Graduation:May 2025]  
 
 ---
 
@@ -129,6 +128,111 @@ VITE_API_URL=http://localhost:5000/api
 ```bash
 PORT=5000
 ```
+
+
+
+# 🎨 Assignment 2: Portfolio Generator App
+### 🎯 Objective
+
+Build a dynamic portfolio generator where users can select a template, fill out a multi-section form, and view a live-generated portfolio profile page.
+
+## ✨ Features  
+- ✅ Multi-section portfolio form (Hero, About, Skills, Projects, etc.)
+- ✅ Choose between 2 templates (TemplateOne & TemplateTwo)
+- ✅ Profile cards displayed dynamically
+- ✅ Full portfolio pages at /portfolio/:id
+- ✅ Edit/Update support via PUT API
+- ✅ Real-time data via Express backend
+- ✅ Chakra UI for design and layout
+
+## 💻 Tech Stack
+| Category	| Technology Used |
+|-----------|-----------------|
+| Frontend	| React (Vite), Chakra UI, React Router |
+| Backend	  | Node.js, Express.js |
+| API Handling |	Axios |
+| Environment	 | .env |
+| Design	| Chakra Components, Responsive Layout |
+
+## 🧩 Folder Structure
+```bash
+portfolio-generator/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/        # Navbar, PortfolioForm, Templates
+│   │   ├── pages/             # Home, PortfolioPage
+│   │   ├── services/          # api.js
+│   │   └── App.jsx, main.jsx
+│   ├── .env
+│   └── package.json
+│
+└── backend/
+    ├── server.js
+    ├── .env
+    └── package.json
+```
+
+## ⚙️ Setup Instructions
+### 🧱 Backend Setup
+```bash
+cd portfolio-generator/backend
+npm install
+echo "PORT=5001" > .env
+node server.js
+```
+
+### 💡 Frontend Setup
+```bash
+cd portfolio-generator/frontend
+npm install
+echo "VITE_API_URL=http://localhost:5001/api" > .env
+npm run dev
+```
+
+### 🖼️ UI Preview
+- #### Home (Profile List)	
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/portfolio-generator/frontend/screenshots/home.jpg?raw=true)
+- #### Add Portfolio Form	
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/portfolio-generator/frontend/screenshots/add%20portfolio.jpg?raw=true)
+- #### Template One	
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/portfolio-generator/frontend/screenshots/template%20one.jpg?raw=true)
+- #### Template Two	
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/portfolio-generator/frontend/screenshots/template%20two.jpg?raw=true)
+
+
+### 🔧 API Endpoints
+| Method	| Endpoint	| Description |
+|---------|-----------|-------------|
+| GET	| /api/portfolios	| Fetch all portfolios |
+| POST |	/api/portfolios	| Add a new portfolio |
+| PUT	| /api/portfolios/:id	| Update an existing portfolio |
+
+### 🧠 Environment Variables
+- #### Frontend (.env)
+```bash
+VITE_API_URL=http://localhost:5001/api
+```
+- #### Backend (.env)
+```bash
+PORT=5001
+```
+
+## 🌐 Deployment
+| Project	| Frontend URL	| Backend URL |
+|---------|---------------|-------------|
+| Property Listing	| https://your-property-app.netlify.app |	https://property-api.onrender.com/api |
+| Portfolio Generator	| https://your-portfolio-app.netlify.app | https://portfolio-api.onrender.com/api |
+
+## 🧰 Scripts Reference
+### Command	Description
+| Command | Description |
+|---------|-------------|
+| npm install	| Install dependencies |
+| npm run dev	| Start frontend development server |
+| node server.js	| Run backend server |
+| npm run build	 | Build frontend for production |
+
 ### 👤Author
 
 Developed by **Nitish Kumar Singh.** Feel free to contribute or provide feedback!
