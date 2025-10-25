@@ -221,8 +221,8 @@ PORT=5001
 ## 🌐 Deployment
 | Project	| Frontend URL	| Backend URL |
 |---------|---------------|-------------|
-| Property Listing	| https://your-property-app.netlify.app |	https://property-api.onrender.com/api |
-| Portfolio Generator	| https://your-portfolio-app.netlify.app | https://portfolio-api.onrender.com/api |
+| Property Listing	| https://drone-tv-t975.vercel.app |	https://drone-tv.vercel.app |
+| Portfolio Generator	| https://drone-tv-portfolio-frontend.vercel.app | https://drone-tv-tpzi.vercel.app |
 
 ## 🧰 Scripts Reference
 ### Command	Description
