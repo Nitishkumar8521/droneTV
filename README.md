@@ -103,11 +103,32 @@ npm run dev
 ```
 
 ### 📸 Screenshots
-- #### ➕ Add Product
-![App Screenshot]()
+- ####  📦 Home Page
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/property-listing/frontend/screenshots/home.jpg?raw=true)
 
-- #### 📋 Product List
-![App Screenshot]()
+- #### ➕ Add Property Form
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/property-listing/frontend/screenshots/add%20Property%20form.jpg?raw=true)
 
-- #### 📦 Order List
-![App Screenshot]()
+- #### 📦 View Modal
+![App Screenshot](https://github.com/Nitishkumar8521/droneTV/blob/main/property-listing/frontend/screenshots/model%20view.jpg?raw=true)
+
+### 🔧 API Endpoints
+| Method	| Endpoint	| Description |
+|---------|-----------|-------------|
+| GET	    |/api/properties	| Fetch all property listings
+| POST	  |/api/properties	| Add a new property
+
+
+### 🧠 Environment Variables
+- #### Frontend (.env)
+```bash
+VITE_API_URL=http://localhost:5000/api
+```
+
+- #### Backend (.env)
+```bash
+PORT=5000
+```
+### 👤Author
+
+Developed by **Nitish Kumar Singh.** Feel free to contribute or provide feedback!
